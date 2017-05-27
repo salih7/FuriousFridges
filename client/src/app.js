@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from './components/Home.jsx';
+import Question from './components/QuestionForum.jsx';
 
-ReactDOM.render(<h1>Hello World from React</h1>, document.getElementById('root'));
+ReactDOM.render(<Question />, document.getElementById('root'));
