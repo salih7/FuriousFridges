@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home.jsx';
-import Question from './components/QuestionForum.jsx';
+import AskQuestionForum from './components/AskQuestionForum.jsx';
 
-ReactDOM.render(<Question />, document.getElementById('root'));
+ReactDOM.render(<AskQuestionForum />, document.getElementById('root'));
